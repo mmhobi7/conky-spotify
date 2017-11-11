@@ -7,24 +7,25 @@ total_run_times 0
 
 own_window yes
 own_window_transparent yes
-own_window_type desktop
+own_window_type dock
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 draw_shades no
 draw_outline no
 draw_borders no
 double_buffer yes
 no_buffers yes
+imlib_cache_size 0  
 
 alignment tr
-gap_x 15
+gap_x 50
 gap_y 80
-minimum_size 180 150
+minimum_size 250 75
 
 color0 ffffff
 color1 e6e6e6
 
 TEXT
 ${if_running spotify}
-${image $HOME/.conky/spotify-display/latest.jpg -p 132,0 -s 60x60}
+${image $HOME/.conky/spotify-display/latest.jpg -p 170,0 -s 60x60}
 ${voffset -10}${color0}${font LL_Record:size=14}${goto 10}d${font}${color1}${goto 40}${voffset -8}${execpi 2 python $HOME/.conky/spotify-display/spotify_getinfo.py}
 ${endif}
