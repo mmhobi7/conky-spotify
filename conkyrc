@@ -1,6 +1,6 @@
 # Conky Word Clock
 use_xft yes
-xftfont Roboto:size=8
+xftfont Ubuntu Regular:size=8
 
 update_interval 1
 total_run_times 0
