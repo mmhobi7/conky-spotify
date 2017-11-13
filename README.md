@@ -7,7 +7,7 @@ This is a spotify display made for the native spotify client:
 https://www.spotify.com/us/download/previews/
 
 Dependencies: 
-sudo apt-get install python python-dbus
+python 
 
 There are two fonts that you need to download:
 http://www.dafont.com/ll-record.font (for the play symbol)
