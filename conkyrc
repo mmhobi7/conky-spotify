@@ -7,14 +7,15 @@ total_run_times 0
 
 own_window yes
 own_window_transparent yes
-own_window_type dock
-own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_hints undecorated,sticky,skip_taskbar,skip_pager
+own_window_type desktop
+# own_window_argb_visual yes -needs this patch: https://github.com/brndnmtthws/conky/pull/84
+own_window_class override
 draw_shades no
 draw_outline no
 draw_borders no
-double_buffer yes
-no_buffers yes
-imlib_cache_size 0  
+double_buffer yes # change to no for cool flikering effect
+imlib_cache_size 0
 
 alignment tr
 gap_x 70
