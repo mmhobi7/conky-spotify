@@ -24,9 +24,11 @@ minimum_size 300 90
 
 color0 ffffff
 color1 e6e6e6
+color2 1a1a1a
+color3 000000
 
 TEXT
 ${if_running spotify}
 ${image $HOME/.conky/spotify-display/latest.jpg -p 210/0,0 -s 90x90}
-${voffset 5}${color0}${font LL_Record:size=14}${goto 10}d${font}${color1}${goto 40}${voffset -8}${execpi 2 python $HOME/.conky/spotify-display/spotify_getinfo.py}
+${voffset 5}${execpi 2 python $HOME/.conky/spotify-display/spotify_getinfo.py}
 ${endif}
