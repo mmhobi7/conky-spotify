@@ -10,7 +10,7 @@ Dependencies:
 * python 
 * http://www.dafont.com/ll-record.font (for the play symbol)
 * imagemagick
-* Ubuntu (otherwise use branch v1.0)
+* Unity or Gnome (otherwise use branch v1.0)
 
 For the files, rename the "conkyrc" to ".conkyrc" and place it in your home directory.
 Place the spotify-display folder inside a ".conky" folder in your home directory.
