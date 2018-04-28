@@ -29,6 +29,6 @@ color3 000000
 
 TEXT
 ${if_running spotify}
-${image $HOME/.conky/spotify-display/latest.jpg -p 210/0,0 -s 90x90}
-${voffset 5}${execpi 2 python $HOME/.conky/spotify-display/spotify_getinfo.py}
+${image $HOME/spotify-display/latest.jpg -p 210/0,0 -s 90x90}
+${voffset 5}${execpi 2 python $HOME/spotify-display/spotify_getinfo.py}
 ${endif}

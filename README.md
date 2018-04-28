@@ -12,8 +12,8 @@ Dependencies:
 * imagemagick
 * Unity or Gnome (otherwise use branch v1.0)
 
-For the files, rename the "conkyrc" to ".conkyrc" and place it in your home directory.
-Place the spotify-display folder inside a ".conky" folder in your home directory.
+```git clone https://github.com/Aaahh/conky-spotify
+conky -c conky-spotify/conkyrc```
 
 =========================================
 
