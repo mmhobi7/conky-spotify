@@ -12,8 +12,10 @@ Dependencies:
 * imagemagick
 * Unity or Gnome (otherwise use branch v1.0)
 
-```git clone https://github.com/Aaahh/conky-spotify
-conky -c conky-spotify/conkyrc```
+```
+git clone https://github.com/Aaahh/conky-spotify
+conky -c conky-spotify/conkyrc
+```
 
 =========================================
 
